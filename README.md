@@ -12,7 +12,7 @@
    ```
 3. create you're Database in PostgreSQL and setting DBurl in folder config/Database.js
    ```sh
-   const db = new Sequelize("auth_db", "postgres", "123", {
+   const db = new Sequelize("your_dbname", "postgres", "your_password", {
      host: "localhost",
      dialect: "postgres",
    });
